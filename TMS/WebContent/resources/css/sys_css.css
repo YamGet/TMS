@@ -1,0 +1,146 @@
+@CHARSET "ISO-8859-1";
+
+.header{
+	font-size: 30px;
+}
+.appbody{
+	padding-top: 10px;
+}
+.header-nav{
+	text-align: right;
+	list-style: none;	
+}
+.header-nav li{
+	display: inline;	
+}
+.header-nav li:not(:first-child):before{
+	content: '/';
+	padding: 0px 10px;
+}
+.header-nav a{
+	color: #fff;
+	text-decoration: none;	
+}
+.header-nav a:hover{
+	color: silver;
+}
+.onclick{
+	color: #3d6e9f; 
+	cursor: pointer;
+}
+.form-textboxerror{
+	border-color: red; 
+	border-width: thin; 
+	border-style: solid;
+}
+.required{
+	color: red;
+	font-weight: bold;
+}
+.errorMessage{
+	color: red;	
+	width: 100%;
+	text-align: center;
+}
+.successMessage{
+	color: Green;	
+	width: 100%;
+	text-align: center;
+}
+.informationMessage{
+	color: blue;	
+	width: 100%;
+	text-align: center;
+}
+.normal_btn_active{
+	cursor: pointer; 		    
+	text-align: center;
+	background-color: #ebebeb;
+	color: #fff;
+	
+/* 	border:thin; */
+/* 	border-color: #dddddd; */
+/* 	border-style: solid; */
+/* 	border-width:thin; */
+	
+	-moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bottomLine{
+	border-bottom: thin;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+
+.topLine{
+	border-top: thin;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: thin;
+}
+
+.reportTitle{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	line-height: 35px;
+}
+.reportHeaderTitle{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	line-height: 35px;
+}
+.tableHeader{
+	
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+	
+	border-top: thin;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: thin;
+	
+	border-bottom: thin;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+.longTableHeader{
+	
+	line-height: 35px;
+	font-weight: bold;
+	
+	border-top: thin;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: thin;
+	
+	border-bottom: thin;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+.tableRows{
+	line-height: 35px;
+}
+.linkBtn{
+	color: #2c73e9;
+	cursor: pointer;
+	text-align: center;
+}
+
+.formseparator{
+		width: 100%; padding-bottom: 5px; padding-top: 5px;
+		padding-top: 5px; border-top: thin; border-top-color: #e5e5e5; border-top-style: solid; border-top-width: thin;
+		padding-bottom: 5px; border-bottom: thin; border-bottom-color: #e5e5e5; border-bottom-style: solid; border-bottom-width: thin;
+	}
